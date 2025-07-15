@@ -1,0 +1,74 @@
+# Zero-Shot Prompt Practice
+# Email Writing
+prompt: "Write a professional email to stakeholders explaining a 2-week delay in the WhatsApp integration project. Include an apology, brief explanation of technical challenges, revised timeline, and next steps. Keep the tone professional but reassuring."
+ai_response: "[Subject: Project Update: WhatsApp Integration – Revised Timeline
+
+Dear Stakeholders,
+
+I hope this message finds you well.
+
+I am writing to inform you of a two-week delay in the WhatsApp integration project. We sincerely apologize for this setback and understand the importance of timely delivery. Please rest assured that we are actively addressing the challenges to minimize further impact.
+
+The delay is primarily due to unforeseen technical complexities in aligning our backend systems with WhatsApp’s API requirements. Our team has been working diligently to resolve these issues, and we are making steady progress.
+
+Revised Timeline:
+The new projected completion date is [insert new date, e.g., July 29, 2025], with testing and deployment scheduled shortly thereafter.
+
+Next Steps:
+
+Finalize API integration and conduct internal testing by [insert date]
+Begin user acceptance testing (UAT) by [insert date]
+Prepare deployment and support documentation
+Provide a detailed progress update by [insert date]
+We remain committed to delivering a robust and reliable solution and appreciate your continued support and understanding. If you have any questions or would like to discuss the revised plan in more detail, please don’t hesitate to reach out.
+
+Warm regards,
+[Your Full Name]
+[Your Job Title]
+[Your Contact Information]"
+
+# Meeting Summary
+prompt: "Create a concise meeting summary with the following structure: Key Decisions, Action Items (with owners and deadlines), and Next Meeting Date. Write it for a project status meeting about implementing WhatsApp customer service capabilities."
+ai_response: "[Meeting Summary – WhatsApp Customer Service Project
+Date: July 15, 2025
+Attendees: [Insert names]
+
+Key Decisions
+Proceed with WhatsApp Business API for integration.
+Prioritize automated responses for FAQs in Phase 1.
+Customer service agents will be onboarded in Phase 2 after initial rollout.
+Action Items
+Task	Owner	Deadline
+Finalize API configuration and security protocols	IT Team (Thabo)	July 22, 2025
+Draft FAQ response templates	Customer Experience (Lerato)	July 18, 2025
+Schedule training for support agents	HR (Sipho)	July 25, 2025
+Prepare UAT environment	DevOps (Naledi)	July 20, 2025
+Next Meeting Date
+July 26, 2025 – Progress review and readiness check for Phase 1 launch.]"
+
+# Technical Documentation:
+prompt: "Write a brief technical requirements document for integrating WhatsApp Business API into an existing customer service system. Include sections for: Overview, Technical Requirements, Integration Points, and Success Criteria. Use bullet points and keep it under 300 words."
+ai_response: "[TWhatsApp Business API Integration – Technical Requirements Document
+
+Overview
+The goal is to integrate WhatsApp Business API into the existing customer service platform to enable real-time communication with customers, automate responses to FAQs, and streamline support workflows.
+
+Technical Requirements
+Access to WhatsApp Business API via Meta-approved provider or direct setup.
+Secure HTTPS endpoints for webhook callbacks.
+OAuth 2.0 or token-based authentication for API requests.
+JSON format for message payloads and responses.
+Support for media attachments (images, documents, voice notes).
+Logging and monitoring capabilities for message delivery and errors.
+Integration Points
+Customer Service Dashboard: Embed WhatsApp chat interface for agents.
+CRM System: Sync customer profiles and conversation history.
+Ticketing System: Auto-generate support tickets from WhatsApp messages.
+Notification Service: Send proactive messages (e.g., order updates, reminders).
+Analytics Platform: Track engagement metrics and response times.
+Success Criteria
+Seamless two-way messaging between customers and agents.
+99% uptime and message delivery reliability.
+Automated responses for top 10 FAQs within 1 second.
+Full integration with CRM and ticketing systems.
+Positive feedback from pilot users and reduced response time by 30%.]"
